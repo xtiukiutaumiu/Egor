@@ -1,0 +1,19 @@
+h1 {
+    color:rgba(7, 151, 247, 0.979);
+    font-family:Brush Script Std, cursive;
+    font-size:50px;
+}
+a{
+    text-decoration: none;
+    font-size: 40px;
+    color:rgba(28, 28, 153, 0.685);
+}
+li{
+    font-size: 70px;
+    margin: 0px 0px 0px 60px;
+}
+img{
+width: 320px;
+height:400px ;
+margin: -600px 100px 0px 400px;
+}
