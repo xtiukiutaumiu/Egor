@@ -1,5 +1,7 @@
 body {
     font-family: sans-serif;
+  padding-left: 100px; 
+  padding-right: 100px; 
 }
 .mini::before{
     position: absolute;
