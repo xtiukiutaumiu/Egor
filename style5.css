@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+}
+.mini::before{
+    position: absolute;
+}
+.image {
+  animation: move 3s infinite; 
+}
+.catalog a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px dotted black;
+    font-size: 20px;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 700px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #253fe5, white, #253fe5);
+}
+
+.product {
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 10px double crimson;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: white;
+    position: relative;
+}
+
+.product::before {
+    content: url("https://static-algoritmika-org.ngcdn.ru/uploads/student/70137994/6a19476099491.png");
+    width: 30px;
+    height: 30px;
+    display: block;
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+
+.product:hover::before {
+    opacity: 1;
+    transform: translateX(20px) translateY(160px);
+    transition: all 1s ease-in;
+}
+.qq{
+    border: 3px solid  royalblue;
+box-shadow: 2px 2px 5px 0 slateblue;
+
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px dashed navy;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: royalblue;
+    margin: 30px;
+    padding: 10px;
+}
+.mini{
+    position: absolute;
+}
